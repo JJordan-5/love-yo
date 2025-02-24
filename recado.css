@@ -1,0 +1,41 @@
+body {
+    color: black;
+    background-color: #F2D3E4;
+    font-family: cursive;
+    font-size: x-small;
+}
+.centro {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    text-decoration: darkblue;
+    font-weight: 500;
+}
+
+.destaque2 {
+    font-size: 20px
+}
+
+.destaque {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: initial;
+}
+
+img {
+    width: 140px;
+    height: 180px;
+    border-radius: 20%;
+   border-style: groove;
+    border-color: rgb(110, 7, 114);
+    justify-content: center;
+}
+
+header {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    gap: 50px; /* Espaçamento entre as imagens */
+    box-sizing: border-box;
+}
